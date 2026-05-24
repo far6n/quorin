@@ -1,42 +1,22 @@
-# Quorin — Landing Page
+# Quorin
 
-Marketing site for **Quorin**, a learning app powered by cognitive science. Built with React + Vite, Tailwind CSS, and Framer Motion.
+**Flashcards taught you to remember. Quorin teaches you to think.**
 
-## Run locally
+Quorin is a Socratic AI learning app rooted in cognitive science. Instead of drilling facts, Quorin walks you up Bloom's taxonomy through conversation — challenging your reasoning until you genuinely understand what you're studying, not just memorize it.
 
-```bash
+Built as a passion project for my college application.
+
+## Live Site
+https://quorin-landing.vercel.app
+
+## Tech Stack
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- Claude API (Anthropic)
+- Deployed on Vercel
+
+## Run Locally
 cd quorin-landing
 npm install
 npm run dev
-```
-
-Then open the URL Vite prints (usually `http://localhost:5173`).
-
-## Build
-
-```bash
-npm run build      # outputs to ./dist
-npm run preview    # preview the production build
-```
-
-## Deploy to Vercel
-
-**Option A — via CLI (fastest):**
-
-```bash
-npm i -g vercel
-vercel            # follow prompts; accept defaults
-vercel --prod     # deploy production
-```
-
-**Option B — via GitHub:**
-
-1. Push the `quorin-landing` folder to a new GitHub repo.
-2. Go to [vercel.com/new](https://vercel.com/new) and import the repo.
-3. Vercel auto-detects Vite — keep the defaults:
-   - Framework Preset: **Vite**
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-4. Click **Deploy**.
-
-That's it — every push to `main` will redeploy automatically.
